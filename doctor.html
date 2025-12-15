@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pet Doctor - Meow's Home</title>
+		<link rel="stylesheet" href="design.css">
+	</head>
+	<body>
+		<!-- Background music -->
+		<audio id="bgm" autoplay loop>
+			<source src="bgm.mp4" type="audio/mp4">
+		</audio>
+		<header>
+			<h1>
+				<img class="logo-icon" src="icon.webp" alt="Meow's Home logo">
+				<span class="brand-text">Meow's Home</span>
+			</h1>
+			<p>Your trusted pet adoption partner</p>
+		</header>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="home.html">
+						<img class="nav-icon" src="home.webp" alt="Home icon">
+						<span class="nav-text">Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="adopt.html">
+						<img class="nav-icon" src="adopt.webp" alt="Adopt icon">
+						<span class="nav-text">Adopt</span>
+					</a>
+				</li>
+				<li>
+					<a href="shop.html">
+						<img class="nav-icon" src="shop.webp" alt="Shop icon">
+						<span class="nav-text">Shop</span>
+					</a>
+				</li>
+				<li>
+					<a href="doctor.html">
+						<img class="nav-icon" src="doctor.webp" alt="Doctor icon">
+						<span class="nav-text">Veterinary</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+			<!-- Hero similar to the provided design: large background area with CTA -->
+			<section class="hero-doctor">
+				<div class="hero-inner">
+					<div class="hero-text">
+						<h2>Expert Veterinary Care for Your Pet</h2>
+						<p>Compassionate doctors. Comprehensive services. Modern equipment.</p>
+						<div class="hero-cta">
+							<a class="cta-button" href="#contact">Book an Appointment</a>
+						</div>
+					</div>
+					<div class="hero-visual">
+						<!-- Large illustration/photo; replace with your preferred hero image -->
+						<img src="d4.jpeg" alt="Veterinary hero image">
+					</div>
+				</div>
+			</section>
+
+			<!-- Services / What we do -->
+			<section class="services-section">
+				<h2>What We Offer</h2>
+				<div class="service-cards">
+					<article class="service-card">
+						<img src="d1.jpeg" alt="Vaccination">
+						<h3>Vaccination</h3>
+						<p>Protective vaccination plans tailored to your pet's age and lifestyle.</p>
+						<a class="small-cta" href="#">Learn more</a>
+					</article>
+
+					<article class="service-card">
+						<img src="d2.jpeg" alt="Therapy">
+						<h3>Therapy</h3>
+						<p>Specialist-led therapy and rehabilitation to help pets recover and thrive.</p>
+						<a class="small-cta" href="#">Learn more</a>
+					</article>
+
+					<article class="service-card">
+						<img src="d3.jpeg" alt="Ultrasound">
+						<h3>Ultrasound & Imaging</h3>
+						<p>Advanced imaging for accurate diagnosis and fast treatment planning.</p>
+						<a class="small-cta" href="#">Learn more</a>
+					</article>
+				</div>
+			</section>
+
+			<!-- About the Doctor / Clinic -->
+			<section class="about-doctor">
+				<h2>About Our Doctor</h2>
+				<div class="about-grid">
+					<div class="about-text">
+						<p>Dr. Emily Carter is a licensed veterinarian with over 12 years of experience in small animal medicine. She specialises in preventive care, surgery, and compassionate patient handling.</p>
+						<p>Our clinic is equipped to provide routine checkups, emergency care, and ongoing treatment plans tailored to each pet's needs.</p>
+					</div>
+					<div class="about-media">
+						<!-- Circular video placeholder with play overlay -->
+						<div class="circle-photo">
+							<img src="d5.jpg" alt="clinic video poster">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Testimonials -->
+			<section class="testimonials">
+				<h2>What Our Clients Say</h2>
+				<div class="testimonial-list">
+					<blockquote class="testimonial">
+						<p>"Amazing care and very friendly staff. Dr. Carter treated our cat with so much patience — highly recommended."</p>
+						<video class="meow-video" autoplay muted playsinline preload="metadata" width="480" height="270" controls style="border-radius: 12px;">
+							<source src="client1.mp4" type="video/mp4">
+				        </video>
+						<footer>— Anna P.</footer>
+					</blockquote>
+					<blockquote class="testimonial">
+						<p>"Quick appointment, clear explanations, and our dog recovered fully after surgery. Thank you!"</p>
+						<video class="meow-video" autoplay muted playsinline preload="metadata" width="480" height="270" controls style="border-radius: 12px;">
+							<source src="client2.mp4" type="video/mp4">
+				        </video>
+						<footer>— Mark T.</footer>
+					</blockquote>
+				</div>
+			</section>
+
+			<!-- Contact / Map banner -->
+			<section id="contact" class="contact-banner">
+				<h2>Find Us</h2>
+				<!-- single-line contact row: address | phone | email | hours -->
+				<div class="contact-line">
+					<span class="contact-item-line"><strong>Address:</strong> Jalan Yong Shook Lin, PJS 7 <br> Jln Bukit Bintang 55100</span>
+					<span class="contact-sep">|</span>
+					<span class="contact-item-line"><strong>Phone:</strong> <a href="tel:+604567890">+(+60) 456-7890</a></span>
+					<span class="contact-sep">|</span>
+					<span class="contact-item-line"><strong>Email:</strong> <a href="mailto:meowshome@gmail.com">meowshome@gmail.com</a></span>
+					<span class="contact-sep">|</span>
+					<span class="contact-item-line"><strong>Hours:</strong> Monday - Saturday, 10am - 6pm | Sunday, 12pm - 5pm</span>
+				</div>
+			<div class="location-grid">
+				<div class="location-card">
+					<img src="location.jpeg" alt="Map location of the veterinary clinic" height="250" width="500">
+					<h5>Jalan Yong Shook Lin, PJS 7</h5>
+				</div>
+				<div class="location-card">
+					<img src="location2.jpeg" alt="Map location of the veterinary clinic" height="250" width="500">
+					<h5>Jln Bukit Bintang 55100</h5>
+				</div>
+			</div>			</section>
+		</main>
+
+	<footer>
+		<p>&copy; 2025 Meow's Home. All rights reserved.</p>
+	</footer>
+	<script>
+		// Observe and autoplay/pause all .meow-video elements when they enter/leave the viewport
+		(function(){
+			const meowVideos = document.querySelectorAll('.meow-video');
+			if (!meowVideos.length) return;
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					const vid = entry.target;
+					if (entry.isIntersecting) {
+						vid.play().catch(() => {});
+					} else {
+						vid.pause();
+					}
+				});
+			}, { threshold: 0.5 });
+
+			meowVideos.forEach(v => {
+				v.muted = true;
+				v.playsInline = true;
+				if (!v.getAttribute('preload')) v.setAttribute('preload', 'metadata');
+				observer.observe(v);
+			});
+		})();
+	</script>
+</body>
+</html>
